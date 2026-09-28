@@ -1,0 +1,484 @@
+[gd_scene format=3 uid="uid://bblgdnc2j77r8"]
+
+[ext_resource type="PackedScene" uid="uid://o00lboviberi" path="res://asset/kevin_tower_defense/detail-crystal-large.glb" id="1_w4u0r"]
+[ext_resource type="PackedScene" uid="uid://bugiqeh2w5maw" path="res://asset/kevin_tower_defense/detail-crystal.glb" id="2_f52l4"]
+[ext_resource type="PackedScene" uid="uid://dcduw3475cadj" path="res://asset/kevin_tower_defense/detail-dirt-large.glb" id="3_00i4a"]
+[ext_resource type="PackedScene" uid="uid://ct87gdoy552e4" path="res://asset/kevin_tower_defense/detail-dirt.glb" id="4_mjciq"]
+[ext_resource type="PackedScene" uid="uid://b8tdad2vx0o0v" path="res://asset/kevin_tower_defense/detail-rocks-large.glb" id="5_ynjfv"]
+[ext_resource type="PackedScene" uid="uid://cfwl2vmm3vmpg" path="res://asset/kevin_tower_defense/detail-rocks.glb" id="6_embli"]
+[ext_resource type="PackedScene" uid="uid://dq85qveqa18ji" path="res://asset/kevin_tower_defense/detail-tree-large.glb" id="7_c3wn3"]
+[ext_resource type="PackedScene" uid="uid://bb26dolemnmbt" path="res://asset/kevin_tower_defense/detail-tree.glb" id="8_uk4jc"]
+[ext_resource type="PackedScene" uid="uid://csdmfcg7g2s82" path="res://asset/kevin_tower_defense/enemy-ufo-a-weapon.glb" id="9_uhglj"]
+[ext_resource type="PackedScene" uid="uid://bnti6l0mp31fu" path="res://asset/kevin_tower_defense/enemy-ufo-a.glb" id="10_pg5h8"]
+[ext_resource type="PackedScene" uid="uid://b27dwjcpmx610" path="res://asset/kevin_tower_defense/enemy-ufo-b-weapon.glb" id="11_y2hhm"]
+[ext_resource type="PackedScene" uid="uid://c05vrw07cu8a6" path="res://asset/kevin_tower_defense/enemy-ufo-b.glb" id="12_ebhff"]
+[ext_resource type="PackedScene" uid="uid://efugyvskk1pm" path="res://asset/kevin_tower_defense/enemy-ufo-beam-burst.glb" id="13_4npe3"]
+[ext_resource type="PackedScene" uid="uid://c2d01se4iwr3m" path="res://asset/kevin_tower_defense/enemy-ufo-beam.glb" id="14_6leco"]
+[ext_resource type="PackedScene" uid="uid://dywnci5egjo0e" path="res://asset/kevin_tower_defense/enemy-ufo-c-weapon.glb" id="15_nnh1q"]
+[ext_resource type="PackedScene" uid="uid://b1qhksjri43d0" path="res://asset/kevin_tower_defense/enemy-ufo-c.glb" id="16_3sik0"]
+[ext_resource type="PackedScene" uid="uid://y03itctlv0t3" path="res://asset/kevin_tower_defense/enemy-ufo-d-weapon.glb" id="17_yhd2u"]
+[ext_resource type="PackedScene" uid="uid://dywd43eafaylm" path="res://asset/kevin_tower_defense/enemy-ufo-d.glb" id="18_xmv2u"]
+[ext_resource type="PackedScene" uid="uid://btmnjafoi5v6w" path="res://asset/kevin_tower_defense/selection-a.glb" id="19_xsnw0"]
+[ext_resource type="PackedScene" uid="uid://cs1dt81xfqd31" path="res://asset/kevin_tower_defense/selection-b.glb" id="20_ffsp2"]
+[ext_resource type="PackedScene" uid="uid://cc3qtdwp2ba4j" path="res://asset/kevin_tower_defense/snow-detail-crystal-large.glb" id="21_rivsb"]
+[ext_resource type="PackedScene" uid="uid://dlqkhcvcwfdhu" path="res://asset/kevin_tower_defense/snow-detail-crystal.glb" id="22_un0vs"]
+[ext_resource type="PackedScene" uid="uid://uo0hktc14tkc" path="res://asset/kevin_tower_defense/snow-detail-dirt-large.glb" id="23_o6by7"]
+[ext_resource type="PackedScene" uid="uid://rolfxy18tqun" path="res://asset/kevin_tower_defense/snow-detail-dirt.glb" id="24_cd62i"]
+[ext_resource type="PackedScene" uid="uid://maut85d3hlue" path="res://asset/kevin_tower_defense/snow-detail-rocks-large.glb" id="25_t443g"]
+[ext_resource type="PackedScene" uid="uid://df1cc2qdub2mx" path="res://asset/kevin_tower_defense/snow-detail-rocks.glb" id="26_xqjab"]
+[ext_resource type="PackedScene" uid="uid://djexyrh4s7t54" path="res://asset/kevin_tower_defense/snow-detail-tree-large.glb" id="27_fmngq"]
+[ext_resource type="PackedScene" uid="uid://cnnm00uf5xm52" path="res://asset/kevin_tower_defense/snow-detail-tree.glb" id="28_dj6ng"]
+[ext_resource type="PackedScene" uid="uid://cewwbjnnyehsx" path="res://asset/kevin_tower_defense/snow-tile-bump.glb" id="29_wdnqq"]
+[ext_resource type="PackedScene" uid="uid://bufojyyqy8dw4" path="res://asset/kevin_tower_defense/snow-tile-corner-inner.glb" id="30_jtocc"]
+[ext_resource type="PackedScene" uid="uid://bgi8r7twgcti7" path="res://asset/kevin_tower_defense/snow-tile-corner-large.glb" id="31_d427p"]
+[ext_resource type="PackedScene" uid="uid://bxpa1pjid5kql" path="res://asset/kevin_tower_defense/snow-tile-corner-outer.glb" id="32_8jnm4"]
+[ext_resource type="PackedScene" uid="uid://beaya3x2vmye4" path="res://asset/kevin_tower_defense/snow-tile-corner-round.glb" id="33_w1c2n"]
+[ext_resource type="PackedScene" uid="uid://c1vyykkutl658" path="res://asset/kevin_tower_defense/snow-tile-corner-square.glb" id="34_04lt6"]
+[ext_resource type="PackedScene" uid="uid://cwgnbyk6k8hgx" path="res://asset/kevin_tower_defense/snow-tile-crossing.glb" id="35_uks5t"]
+[ext_resource type="PackedScene" uid="uid://duo0or21rbk05" path="res://asset/kevin_tower_defense/snow-tile-crystal.glb" id="36_8wbig"]
+[ext_resource type="PackedScene" uid="uid://p2qa083y60rk" path="res://asset/kevin_tower_defense/snow-tile-dirt.glb" id="37_55vj6"]
+[ext_resource type="PackedScene" uid="uid://jcoryn8a3pmg" path="res://asset/kevin_tower_defense/snow-tile-end-round.glb" id="38_ynu12"]
+[ext_resource type="PackedScene" uid="uid://ddedoclfa1vaw" path="res://asset/kevin_tower_defense/snow-tile-end.glb" id="39_udsdb"]
+[ext_resource type="PackedScene" uid="uid://j0whim51cm43" path="res://asset/kevin_tower_defense/snow-tile-hill.glb" id="40_n5wxp"]
+[ext_resource type="PackedScene" uid="uid://dv3w22ckn1saj" path="res://asset/kevin_tower_defense/snow-tile-river-bridge.glb" id="41_o8g5j"]
+[ext_resource type="PackedScene" uid="uid://46v1egwxfcng" path="res://asset/kevin_tower_defense/snow-tile-river-corner.glb" id="42_he6wt"]
+[ext_resource type="PackedScene" uid="uid://5ivivhlrrsls" path="res://asset/kevin_tower_defense/snow-tile-river-slope-large.glb" id="43_5s0yq"]
+[ext_resource type="PackedScene" uid="uid://b23k08db06vo7" path="res://asset/kevin_tower_defense/snow-tile-river-slope.glb" id="44_hrsl3"]
+[ext_resource type="PackedScene" uid="uid://c150kf6u33s0x" path="res://asset/kevin_tower_defense/snow-tile-river-straight.glb" id="45_jj4rs"]
+[ext_resource type="PackedScene" uid="uid://kd4rjo2tr81a" path="res://asset/kevin_tower_defense/snow-tile-river-transition.glb" id="46_yy1qt"]
+[ext_resource type="PackedScene" uid="uid://bhomp6wat45y7" path="res://asset/kevin_tower_defense/snow-tile-river-waterfall.glb" id="47_leq3r"]
+[ext_resource type="PackedScene" uid="uid://dxcr1txna8pc7" path="res://asset/kevin_tower_defense/snow-tile-rock.glb" id="48_bxvr8"]
+[ext_resource type="PackedScene" uid="uid://dl8eei3j1slm1" path="res://asset/kevin_tower_defense/snow-tile-slope.glb" id="49_0a6s7"]
+[ext_resource type="PackedScene" uid="uid://xsfchsv6wvdl" path="res://asset/kevin_tower_defense/snow-tile-spawn-end-round.glb" id="50_pnohs"]
+[ext_resource type="PackedScene" uid="uid://bmn7snoddns24" path="res://asset/kevin_tower_defense/snow-tile-spawn-end.glb" id="51_hcwf7"]
+[ext_resource type="PackedScene" uid="uid://cxgyjnrju2ttq" path="res://asset/kevin_tower_defense/snow-tile-spawn-round.glb" id="52_j5lo6"]
+[ext_resource type="PackedScene" uid="uid://56ul6ebmf4c3" path="res://asset/kevin_tower_defense/snow-tile-spawn.glb" id="53_fp0uk"]
+[ext_resource type="PackedScene" uid="uid://ddt6y1gtbc0xr" path="res://asset/kevin_tower_defense/snow-tile-split.glb" id="54_oxwbi"]
+[ext_resource type="PackedScene" uid="uid://bsk43nad3ymtx" path="res://asset/kevin_tower_defense/snow-tile-straight-slope-large.glb" id="55_kmsq8"]
+[ext_resource type="PackedScene" uid="uid://b7tfa57ocdvpc" path="res://asset/kevin_tower_defense/snow-tile-straight-slope.glb" id="56_ssgvl"]
+[ext_resource type="PackedScene" uid="uid://cmr5x63c8t08y" path="res://asset/kevin_tower_defense/snow-tile-straight.glb" id="57_bs15l"]
+[ext_resource type="PackedScene" uid="uid://bv5mqjyg7e5kb" path="res://asset/kevin_tower_defense/snow-tile-transition.glb" id="58_o3qyb"]
+[ext_resource type="PackedScene" uid="uid://bs5boa0tsx2gg" path="res://asset/kevin_tower_defense/snow-tile-tree-double.glb" id="59_psbe4"]
+[ext_resource type="PackedScene" uid="uid://l3hmuxpc0n0w" path="res://asset/kevin_tower_defense/snow-tile-tree-quad.glb" id="60_g8fc2"]
+[ext_resource type="PackedScene" uid="uid://cenfggxx0j03u" path="res://asset/kevin_tower_defense/snow-tile-tree.glb" id="61_s7xaq"]
+[ext_resource type="PackedScene" uid="uid://ejetpmji0pyb" path="res://asset/kevin_tower_defense/snow-tile-wide-corner.glb" id="62_o8syd"]
+[ext_resource type="PackedScene" uid="uid://dcj1e34fsk03w" path="res://asset/kevin_tower_defense/snow-tile-wide-split.glb" id="63_cle30"]
+[ext_resource type="PackedScene" uid="uid://cqck88jt0ei0t" path="res://asset/kevin_tower_defense/snow-tile-wide-straight.glb" id="64_2nnvh"]
+[ext_resource type="PackedScene" uid="uid://cvt7702b55hep" path="res://asset/kevin_tower_defense/snow-tile-wide-transition.glb" id="65_8p6pm"]
+[ext_resource type="PackedScene" uid="uid://bkumdutl4hw7n" path="res://asset/kevin_tower_defense/snow-tile.glb" id="66_qam1d"]
+[ext_resource type="PackedScene" uid="uid://kvmvshe75rkn" path="res://asset/kevin_tower_defense/snow-wood-structure-high-part.glb" id="67_jdncp"]
+[ext_resource type="PackedScene" uid="uid://csh43a7xwhtvg" path="res://asset/kevin_tower_defense/snow-wood-structure-high.glb" id="68_bx2qh"]
+[ext_resource type="PackedScene" uid="uid://cw07lwq50jvvr" path="res://asset/kevin_tower_defense/snow-wood-structure-part.glb" id="69_ubjd1"]
+[ext_resource type="PackedScene" uid="uid://dqcnbpjn3h71g" path="res://asset/kevin_tower_defense/snow-wood-structure.glb" id="70_6ubsl"]
+[ext_resource type="PackedScene" uid="uid://dvburtklksxfy" path="res://asset/kevin_tower_defense/spawn-round.glb" id="71_li2lu"]
+[ext_resource type="PackedScene" uid="uid://ckpdvyrayx4pr" path="res://asset/kevin_tower_defense/spawn-square.glb" id="72_gscmu"]
+[ext_resource type="PackedScene" uid="uid://i83ymltt6rb8" path="res://asset/kevin_tower_defense/tile-bump.glb" id="73_2n1cq"]
+[ext_resource type="PackedScene" uid="uid://ds5bna7mkpvhk" path="res://asset/kevin_tower_defense/tile-corner-inner.glb" id="74_gd63l"]
+[ext_resource type="PackedScene" uid="uid://dprjdxculjuhm" path="res://asset/kevin_tower_defense/tile-corner-large.glb" id="75_ctyvv"]
+[ext_resource type="PackedScene" uid="uid://40uji8jdgnp5" path="res://asset/kevin_tower_defense/tile-corner-outer.glb" id="76_wwybl"]
+[ext_resource type="PackedScene" uid="uid://dq7yvv2kymf4s" path="res://asset/kevin_tower_defense/tile-corner-round.glb" id="77_5g36i"]
+[ext_resource type="PackedScene" uid="uid://cxklt6vqa5315" path="res://asset/kevin_tower_defense/tile-corner-square.glb" id="78_u6hh5"]
+[ext_resource type="PackedScene" uid="uid://dakgpbuhvf4sv" path="res://asset/kevin_tower_defense/tile-crossing.glb" id="79_4oecs"]
+[ext_resource type="PackedScene" uid="uid://bsiy1ktdu0u2b" path="res://asset/kevin_tower_defense/tile-crystal.glb" id="80_4pqlh"]
+[ext_resource type="PackedScene" uid="uid://blkj7lqsiyyts" path="res://asset/kevin_tower_defense/tile-dirt.glb" id="81_2ctgv"]
+[ext_resource type="PackedScene" uid="uid://ck6ft2bjayk8v" path="res://asset/kevin_tower_defense/tile-end-round.glb" id="82_uqsw1"]
+[ext_resource type="PackedScene" uid="uid://cyvtbbjdcrpdn" path="res://asset/kevin_tower_defense/tile-end.glb" id="83_yh7mf"]
+[ext_resource type="PackedScene" uid="uid://diispba02jmcn" path="res://asset/kevin_tower_defense/tile-hill.glb" id="84_jd7ko"]
+[ext_resource type="PackedScene" uid="uid://h16nrhxsfbgr" path="res://asset/kevin_tower_defense/tile-river-bridge.glb" id="85_yashw"]
+[ext_resource type="PackedScene" uid="uid://vhm013i8py72" path="res://asset/kevin_tower_defense/tile-river-corner.glb" id="86_c4xeq"]
+[ext_resource type="PackedScene" uid="uid://dd8mmnnhjfi7r" path="res://asset/kevin_tower_defense/tile-river-slope-large.glb" id="87_ds1m6"]
+[ext_resource type="PackedScene" uid="uid://cvll3yn4kqnn6" path="res://asset/kevin_tower_defense/tile-river-slope.glb" id="88_g0hj8"]
+[ext_resource type="PackedScene" uid="uid://bvtfsmm1stvu8" path="res://asset/kevin_tower_defense/tile-river-straight.glb" id="89_5eide"]
+[ext_resource type="PackedScene" uid="uid://djxwqw76npxe" path="res://asset/kevin_tower_defense/tile-river-transition.glb" id="90_0yred"]
+[ext_resource type="PackedScene" uid="uid://crnsfym23exks" path="res://asset/kevin_tower_defense/tile-river-waterfall.glb" id="91_mdsft"]
+[ext_resource type="PackedScene" uid="uid://bglvl6pqfm5n1" path="res://asset/kevin_tower_defense/tile-rock.glb" id="92_02neu"]
+[ext_resource type="PackedScene" uid="uid://j2mwttktt2mr" path="res://asset/kevin_tower_defense/tile-slope.glb" id="93_fiep5"]
+[ext_resource type="PackedScene" uid="uid://ds0eex5gcw13o" path="res://asset/kevin_tower_defense/tile-spawn-end-round.glb" id="94_4gmi5"]
+[ext_resource type="PackedScene" uid="uid://g1wltjts2aga" path="res://asset/kevin_tower_defense/tile-spawn-end.glb" id="95_lft5w"]
+[ext_resource type="PackedScene" uid="uid://b4v4ycxtn45ku" path="res://asset/kevin_tower_defense/tile-spawn-round.glb" id="96_v38tf"]
+[ext_resource type="PackedScene" uid="uid://ng2y0hylgk8x" path="res://asset/kevin_tower_defense/tile-spawn.glb" id="97_bawy1"]
+[ext_resource type="PackedScene" uid="uid://d2s3ora4rn2hd" path="res://asset/kevin_tower_defense/tile-split.glb" id="98_fylcu"]
+[ext_resource type="PackedScene" uid="uid://6epif8k4wni0" path="res://asset/kevin_tower_defense/tile-straight-slope-large.glb" id="99_86yit"]
+[ext_resource type="PackedScene" uid="uid://xepglm1tssb8" path="res://asset/kevin_tower_defense/tile-straight-slope.glb" id="100_725b5"]
+[ext_resource type="PackedScene" uid="uid://qlvnjrvqf56p" path="res://asset/kevin_tower_defense/tile-straight.glb" id="101_y55j3"]
+[ext_resource type="PackedScene" uid="uid://ds221psbruyir" path="res://asset/kevin_tower_defense/tile-transition.glb" id="102_l8lc5"]
+[ext_resource type="PackedScene" uid="uid://cjiuqi51hcocy" path="res://asset/kevin_tower_defense/tile-tree-double.glb" id="103_fi5eu"]
+[ext_resource type="PackedScene" uid="uid://c44mtmvtw030a" path="res://asset/kevin_tower_defense/tile-tree-quad.glb" id="104_q3gm7"]
+[ext_resource type="PackedScene" uid="uid://dbknjnmdgn4he" path="res://asset/kevin_tower_defense/tile-tree.glb" id="105_i3y87"]
+[ext_resource type="PackedScene" uid="uid://dgahcwt776fe" path="res://asset/kevin_tower_defense/tile-wide-corner.glb" id="106_ihkyj"]
+[ext_resource type="PackedScene" uid="uid://rm1xtboe7ea8" path="res://asset/kevin_tower_defense/tile-wide-split.glb" id="107_pqaob"]
+[ext_resource type="PackedScene" uid="uid://b6l03obko05ct" path="res://asset/kevin_tower_defense/tile-wide-straight.glb" id="108_uw0s5"]
+[ext_resource type="PackedScene" uid="uid://beiqjv8g4l8n0" path="res://asset/kevin_tower_defense/tile-wide-transition.glb" id="109_70eh1"]
+[ext_resource type="PackedScene" uid="uid://dad2oibsy5bx6" path="res://asset/kevin_tower_defense/tile.glb" id="110_cwmdm"]
+[ext_resource type="PackedScene" uid="uid://jotwdv7p5ast" path="res://asset/kevin_tower_defense/tower-round-base.glb" id="111_i0upj"]
+[ext_resource type="PackedScene" uid="uid://cykdxijgicyop" path="res://asset/kevin_tower_defense/tower-round-bottom-a.glb" id="112_05mri"]
+[ext_resource type="PackedScene" uid="uid://0dljf5uavrh6" path="res://asset/kevin_tower_defense/tower-round-bottom-b.glb" id="113_c76l2"]
+[ext_resource type="PackedScene" uid="uid://dtma73uwwckuq" path="res://asset/kevin_tower_defense/tower-round-bottom-c.glb" id="114_1le1e"]
+[ext_resource type="PackedScene" uid="uid://dwind8uteluoe" path="res://asset/kevin_tower_defense/tower-round-build-a.glb" id="115_4yfgf"]
+[ext_resource type="PackedScene" uid="uid://b257jyjyrio8x" path="res://asset/kevin_tower_defense/tower-round-build-b.glb" id="116_j4k6c"]
+[ext_resource type="PackedScene" uid="uid://dg153i13s0rxm" path="res://asset/kevin_tower_defense/tower-round-build-c.glb" id="117_4ohh2"]
+[ext_resource type="PackedScene" uid="uid://08p4rvsrcyah" path="res://asset/kevin_tower_defense/tower-round-build-d.glb" id="118_p0u7i"]
+[ext_resource type="PackedScene" uid="uid://bv6qlfsdrk7mf" path="res://asset/kevin_tower_defense/tower-round-build-e.glb" id="119_rbjv7"]
+[ext_resource type="PackedScene" uid="uid://d2tvhlim25s3p" path="res://asset/kevin_tower_defense/tower-round-build-f.glb" id="120_8l3x4"]
+[ext_resource type="PackedScene" uid="uid://bvjhdsrbkt7m5" path="res://asset/kevin_tower_defense/tower-round-crystals.glb" id="121_hnbdc"]
+[ext_resource type="PackedScene" uid="uid://dmwitu4hrijme" path="res://asset/kevin_tower_defense/tower-round-middle-a.glb" id="122_3cpu6"]
+[ext_resource type="PackedScene" uid="uid://cf7fy361wuihd" path="res://asset/kevin_tower_defense/tower-round-middle-b.glb" id="123_hu1ff"]
+[ext_resource type="PackedScene" uid="uid://cjd3f544kii0a" path="res://asset/kevin_tower_defense/tower-round-middle-c.glb" id="124_hghl8"]
+[ext_resource type="PackedScene" uid="uid://b5yaqooiwp85o" path="res://asset/kevin_tower_defense/tower-round-roof-a.glb" id="125_rifhg"]
+[ext_resource type="PackedScene" uid="uid://j7tvejxwp623" path="res://asset/kevin_tower_defense/tower-round-roof-b.glb" id="126_v6k3u"]
+[ext_resource type="PackedScene" uid="uid://d00684h35dlqs" path="res://asset/kevin_tower_defense/tower-round-roof-c.glb" id="127_yolag"]
+[ext_resource type="PackedScene" uid="uid://whuf8ybalqgr" path="res://asset/kevin_tower_defense/tower-round-top-a.glb" id="128_kxame"]
+[ext_resource type="PackedScene" uid="uid://tem8up3rlgmc" path="res://asset/kevin_tower_defense/tower-round-top-b.glb" id="129_piee7"]
+[ext_resource type="PackedScene" uid="uid://t5fl5tnq2dhe" path="res://asset/kevin_tower_defense/tower-round-top-c.glb" id="130_gakky"]
+[ext_resource type="PackedScene" uid="uid://blwk144u3reml" path="res://asset/kevin_tower_defense/tower-square-bottom-a.glb" id="131_1ei4w"]
+[ext_resource type="PackedScene" uid="uid://bxgef0wnnnaoi" path="res://asset/kevin_tower_defense/tower-square-bottom-b.glb" id="132_ak47k"]
+[ext_resource type="PackedScene" uid="uid://dcfb4kvrls5yl" path="res://asset/kevin_tower_defense/tower-square-bottom-c.glb" id="133_ftc3o"]
+[ext_resource type="PackedScene" uid="uid://4nf6qtj7qsxu" path="res://asset/kevin_tower_defense/tower-square-build-a.glb" id="134_fg2f7"]
+[ext_resource type="PackedScene" uid="uid://b0jicakgufd3y" path="res://asset/kevin_tower_defense/tower-square-build-b.glb" id="135_avrfi"]
+[ext_resource type="PackedScene" uid="uid://e74k0jwdobol" path="res://asset/kevin_tower_defense/tower-square-build-c.glb" id="136_msq0o"]
+[ext_resource type="PackedScene" uid="uid://cgdsqhhc4ey23" path="res://asset/kevin_tower_defense/tower-square-build-d.glb" id="137_a8a44"]
+[ext_resource type="PackedScene" uid="uid://brsp28wlsntkl" path="res://asset/kevin_tower_defense/tower-square-build-e.glb" id="138_xa8q3"]
+[ext_resource type="PackedScene" uid="uid://cui50gkhl5xlo" path="res://asset/kevin_tower_defense/tower-square-build-f.glb" id="139_f66gq"]
+[ext_resource type="PackedScene" uid="uid://cta61if7w26u6" path="res://asset/kevin_tower_defense/tower-square-middle-a.glb" id="140_vr52r"]
+[ext_resource type="PackedScene" uid="uid://bx6pa3vah88bq" path="res://asset/kevin_tower_defense/tower-square-middle-b.glb" id="141_h3op7"]
+[ext_resource type="PackedScene" uid="uid://conm3a2y02700" path="res://asset/kevin_tower_defense/tower-square-middle-c.glb" id="142_u5mjf"]
+[ext_resource type="PackedScene" uid="uid://bxxl6v7dyq5s" path="res://asset/kevin_tower_defense/tower-square-roof-a.glb" id="143_01115"]
+[ext_resource type="PackedScene" uid="uid://eaehpbvhiv4" path="res://asset/kevin_tower_defense/tower-square-roof-b.glb" id="144_eylrd"]
+[ext_resource type="PackedScene" uid="uid://dq5wdidkse33b" path="res://asset/kevin_tower_defense/tower-square-roof-c.glb" id="145_rog8p"]
+[ext_resource type="PackedScene" uid="uid://bm1noo71x4dl2" path="res://asset/kevin_tower_defense/tower-square-top-a.glb" id="146_7x0q4"]
+[ext_resource type="PackedScene" uid="uid://uirofv30ktvw" path="res://asset/kevin_tower_defense/tower-square-top-b.glb" id="147_xnw0u"]
+[ext_resource type="PackedScene" uid="uid://bdjfsj6ijlgfe" path="res://asset/kevin_tower_defense/tower-square-top-c.glb" id="148_i83ie"]
+[ext_resource type="PackedScene" uid="uid://ciks7wiwyah3d" path="res://asset/kevin_tower_defense/weapon-ammo-arrow.glb" id="149_raj7h"]
+[ext_resource type="PackedScene" uid="uid://bmu1g1wkeyrhr" path="res://asset/kevin_tower_defense/weapon-ammo-boulder.glb" id="150_5xdsd"]
+[ext_resource type="PackedScene" uid="uid://brs448n215exl" path="res://asset/kevin_tower_defense/weapon-ammo-bullet.glb" id="151_0lr6v"]
+[ext_resource type="PackedScene" uid="uid://bcr547xsnh2fh" path="res://asset/kevin_tower_defense/weapon-ammo-cannonball.glb" id="152_brdxt"]
+[ext_resource type="PackedScene" uid="uid://djms2im84aj7i" path="res://asset/kevin_tower_defense/weapon-ballista.glb" id="153_ldl23"]
+[ext_resource type="PackedScene" uid="uid://c43qvpsub2lg4" path="res://asset/kevin_tower_defense/weapon-cannon.glb" id="154_fh2lx"]
+[ext_resource type="PackedScene" uid="uid://bdiu5utoucl4h" path="res://asset/kevin_tower_defense/weapon-catapult.glb" id="155_67f3n"]
+[ext_resource type="PackedScene" uid="uid://xy4uc6aqp16v" path="res://asset/kevin_tower_defense/weapon-turret.glb" id="156_jdnsd"]
+[ext_resource type="PackedScene" uid="uid://cg8a2byra0hyf" path="res://asset/kevin_tower_defense/wood-structure-high-part.glb" id="157_ha0oi"]
+[ext_resource type="PackedScene" uid="uid://t31pddvut12w" path="res://asset/kevin_tower_defense/wood-structure-high.glb" id="158_871v8"]
+[ext_resource type="PackedScene" uid="uid://dc8fbeicfbwsv" path="res://asset/kevin_tower_defense/wood-structure-part.glb" id="159_rvbrj"]
+[ext_resource type="PackedScene" uid="uid://cal5fbabbb35a" path="res://asset/kevin_tower_defense/wood-structure.glb" id="160_72r36"]
+
+[node name="Tiles" type="Node3D" unique_id=1735918806]
+
+[node name="detail-crystal-large2" parent="." unique_id=583823724 instance=ExtResource("1_w4u0r")]
+
+[node name="detail-crystal2" parent="." unique_id=2087234429 instance=ExtResource("2_f52l4")]
+
+[node name="detail-dirt-large2" parent="." unique_id=1263263505 instance=ExtResource("3_00i4a")]
+
+[node name="detail-dirt2" parent="." unique_id=232360894 instance=ExtResource("4_mjciq")]
+
+[node name="detail-rocks-large2" parent="." unique_id=1232807300 instance=ExtResource("5_ynjfv")]
+
+[node name="detail-rocks2" parent="." unique_id=337192358 instance=ExtResource("6_embli")]
+
+[node name="detail-tree-large2" parent="." unique_id=474241773 instance=ExtResource("7_c3wn3")]
+
+[node name="detail-tree2" parent="." unique_id=202954398 instance=ExtResource("8_uk4jc")]
+
+[node name="enemy-ufo-a-weapon2" parent="." unique_id=73577966 instance=ExtResource("9_uhglj")]
+
+[node name="enemy-ufo-a2" parent="." unique_id=305943993 instance=ExtResource("10_pg5h8")]
+
+[node name="enemy-ufo-b-weapon2" parent="." unique_id=253755423 instance=ExtResource("11_y2hhm")]
+
+[node name="enemy-ufo-b2" parent="." unique_id=1025709817 instance=ExtResource("12_ebhff")]
+
+[node name="enemy-ufo-beam-burst2" parent="." unique_id=1639944985 instance=ExtResource("13_4npe3")]
+
+[node name="enemy-ufo-beam2" parent="." unique_id=2032881114 instance=ExtResource("14_6leco")]
+
+[node name="enemy-ufo-c-weapon2" parent="." unique_id=795643978 instance=ExtResource("15_nnh1q")]
+
+[node name="enemy-ufo-c2" parent="." unique_id=2004124614 instance=ExtResource("16_3sik0")]
+
+[node name="enemy-ufo-d-weapon2" parent="." unique_id=634651233 instance=ExtResource("17_yhd2u")]
+
+[node name="enemy-ufo-d2" parent="." unique_id=1672314384 instance=ExtResource("18_xmv2u")]
+
+[node name="selection-a2" parent="." unique_id=654877237 instance=ExtResource("19_xsnw0")]
+
+[node name="selection-b2" parent="." unique_id=1357952699 instance=ExtResource("20_ffsp2")]
+
+[node name="snow-detail-crystal-large2" parent="." unique_id=395010260 instance=ExtResource("21_rivsb")]
+
+[node name="snow-detail-crystal2" parent="." unique_id=269910239 instance=ExtResource("22_un0vs")]
+
+[node name="snow-detail-dirt-large2" parent="." unique_id=177745732 instance=ExtResource("23_o6by7")]
+
+[node name="snow-detail-dirt2" parent="." unique_id=1886867136 instance=ExtResource("24_cd62i")]
+
+[node name="snow-detail-rocks-large2" parent="." unique_id=832093008 instance=ExtResource("25_t443g")]
+
+[node name="snow-detail-rocks2" parent="." unique_id=185219079 instance=ExtResource("26_xqjab")]
+
+[node name="snow-detail-tree-large2" parent="." unique_id=1673621940 instance=ExtResource("27_fmngq")]
+
+[node name="snow-detail-tree2" parent="." unique_id=688269253 instance=ExtResource("28_dj6ng")]
+
+[node name="snow-tile-bump2" parent="." unique_id=1908658313 instance=ExtResource("29_wdnqq")]
+
+[node name="snow-tile-corner-inner2" parent="." unique_id=1805315072 instance=ExtResource("30_jtocc")]
+
+[node name="snow-tile-corner-large2" parent="." unique_id=867824263 instance=ExtResource("31_d427p")]
+
+[node name="snow-tile-corner-outer2" parent="." unique_id=1269310832 instance=ExtResource("32_8jnm4")]
+
+[node name="snow-tile-corner-round2" parent="." unique_id=1672107430 instance=ExtResource("33_w1c2n")]
+
+[node name="snow-tile-corner-square2" parent="." unique_id=649725190 instance=ExtResource("34_04lt6")]
+
+[node name="snow-tile-crossing2" parent="." unique_id=65211565 instance=ExtResource("35_uks5t")]
+
+[node name="snow-tile-crystal2" parent="." unique_id=1954636862 instance=ExtResource("36_8wbig")]
+
+[node name="snow-tile-dirt2" parent="." unique_id=540556754 instance=ExtResource("37_55vj6")]
+
+[node name="snow-tile-end-round2" parent="." unique_id=1503849629 instance=ExtResource("38_ynu12")]
+
+[node name="snow-tile-end2" parent="." unique_id=640691138 instance=ExtResource("39_udsdb")]
+
+[node name="snow-tile-hill2" parent="." unique_id=1479987062 instance=ExtResource("40_n5wxp")]
+
+[node name="snow-tile-river-bridge2" parent="." unique_id=18791618 instance=ExtResource("41_o8g5j")]
+
+[node name="snow-tile-river-corner2" parent="." unique_id=1965057910 instance=ExtResource("42_he6wt")]
+
+[node name="snow-tile-river-slope-large2" parent="." unique_id=1542852914 instance=ExtResource("43_5s0yq")]
+
+[node name="snow-tile-river-slope2" parent="." unique_id=568717925 instance=ExtResource("44_hrsl3")]
+
+[node name="snow-tile-river-straight2" parent="." unique_id=1170200324 instance=ExtResource("45_jj4rs")]
+
+[node name="snow-tile-river-transition2" parent="." unique_id=1682849709 instance=ExtResource("46_yy1qt")]
+
+[node name="snow-tile-river-waterfall2" parent="." unique_id=683239246 instance=ExtResource("47_leq3r")]
+
+[node name="snow-tile-rock2" parent="." unique_id=622944051 instance=ExtResource("48_bxvr8")]
+
+[node name="snow-tile-slope2" parent="." unique_id=1524503294 instance=ExtResource("49_0a6s7")]
+
+[node name="snow-tile-spawn-end-round2" parent="." unique_id=1093288768 instance=ExtResource("50_pnohs")]
+
+[node name="snow-tile-spawn-end2" parent="." unique_id=1195917492 instance=ExtResource("51_hcwf7")]
+
+[node name="snow-tile-spawn-round2" parent="." unique_id=1308554178 instance=ExtResource("52_j5lo6")]
+
+[node name="snow-tile-spawn2" parent="." unique_id=595927350 instance=ExtResource("53_fp0uk")]
+
+[node name="snow-tile-split2" parent="." unique_id=265869871 instance=ExtResource("54_oxwbi")]
+
+[node name="snow-tile-straight-slope-large2" parent="." unique_id=862452232 instance=ExtResource("55_kmsq8")]
+
+[node name="snow-tile-straight-slope2" parent="." unique_id=189743726 instance=ExtResource("56_ssgvl")]
+
+[node name="snow-tile-straight2" parent="." unique_id=1813874811 instance=ExtResource("57_bs15l")]
+
+[node name="snow-tile-transition2" parent="." unique_id=1799818985 instance=ExtResource("58_o3qyb")]
+
+[node name="snow-tile-tree-double2" parent="." unique_id=322586602 instance=ExtResource("59_psbe4")]
+
+[node name="snow-tile-tree-quad2" parent="." unique_id=1470676150 instance=ExtResource("60_g8fc2")]
+
+[node name="snow-tile-tree2" parent="." unique_id=1602956312 instance=ExtResource("61_s7xaq")]
+
+[node name="snow-tile-wide-corner2" parent="." unique_id=679967614 instance=ExtResource("62_o8syd")]
+
+[node name="snow-tile-wide-split2" parent="." unique_id=1273788909 instance=ExtResource("63_cle30")]
+
+[node name="snow-tile-wide-straight2" parent="." unique_id=546942806 instance=ExtResource("64_2nnvh")]
+
+[node name="snow-tile-wide-transition2" parent="." unique_id=1258358393 instance=ExtResource("65_8p6pm")]
+
+[node name="snow-tile2" parent="." unique_id=1089293098 instance=ExtResource("66_qam1d")]
+
+[node name="snow-wood-structure-high-part2" parent="." unique_id=483574694 instance=ExtResource("67_jdncp")]
+
+[node name="snow-wood-structure-high2" parent="." unique_id=1720836457 instance=ExtResource("68_bx2qh")]
+
+[node name="snow-wood-structure-part2" parent="." unique_id=1807496238 instance=ExtResource("69_ubjd1")]
+
+[node name="snow-wood-structure2" parent="." unique_id=314454257 instance=ExtResource("70_6ubsl")]
+
+[node name="spawn-round2" parent="." unique_id=1237208747 instance=ExtResource("71_li2lu")]
+
+[node name="spawn-square2" parent="." unique_id=723026432 instance=ExtResource("72_gscmu")]
+
+[node name="tile-bump2" parent="." unique_id=1238584796 instance=ExtResource("73_2n1cq")]
+
+[node name="tile-corner-inner2" parent="." unique_id=362399883 instance=ExtResource("74_gd63l")]
+
+[node name="tile-corner-large2" parent="." unique_id=1852180364 instance=ExtResource("75_ctyvv")]
+
+[node name="tile-corner-outer2" parent="." unique_id=1478653032 instance=ExtResource("76_wwybl")]
+
+[node name="tile-corner-round2" parent="." unique_id=1266714303 instance=ExtResource("77_5g36i")]
+
+[node name="tile-corner-square2" parent="." unique_id=840652811 instance=ExtResource("78_u6hh5")]
+
+[node name="tile-crossing2" parent="." unique_id=1572553281 instance=ExtResource("79_4oecs")]
+
+[node name="tile-crystal2" parent="." unique_id=1274163619 instance=ExtResource("80_4pqlh")]
+
+[node name="tile-dirt2" parent="." unique_id=623497710 instance=ExtResource("81_2ctgv")]
+
+[node name="tile-end-round2" parent="." unique_id=2075495434 instance=ExtResource("82_uqsw1")]
+
+[node name="tile-end2" parent="." unique_id=2147050188 instance=ExtResource("83_yh7mf")]
+
+[node name="tile-hill2" parent="." unique_id=1125078070 instance=ExtResource("84_jd7ko")]
+
+[node name="tile-river-bridge2" parent="." unique_id=751996571 instance=ExtResource("85_yashw")]
+
+[node name="tile-river-corner2" parent="." unique_id=529481660 instance=ExtResource("86_c4xeq")]
+
+[node name="tile-river-slope-large2" parent="." unique_id=641969654 instance=ExtResource("87_ds1m6")]
+
+[node name="tile-river-slope2" parent="." unique_id=1202015651 instance=ExtResource("88_g0hj8")]
+
+[node name="tile-river-straight2" parent="." unique_id=1068695443 instance=ExtResource("89_5eide")]
+
+[node name="tile-river-transition2" parent="." unique_id=1608677774 instance=ExtResource("90_0yred")]
+
+[node name="tile-river-waterfall2" parent="." unique_id=398323351 instance=ExtResource("91_mdsft")]
+
+[node name="tile-rock2" parent="." unique_id=756098348 instance=ExtResource("92_02neu")]
+
+[node name="tile-slope2" parent="." unique_id=1925857029 instance=ExtResource("93_fiep5")]
+
+[node name="tile-spawn-end-round2" parent="." unique_id=1113048873 instance=ExtResource("94_4gmi5")]
+
+[node name="tile-spawn-end2" parent="." unique_id=1619642418 instance=ExtResource("95_lft5w")]
+
+[node name="tile-spawn-round2" parent="." unique_id=412218356 instance=ExtResource("96_v38tf")]
+
+[node name="tile-spawn2" parent="." unique_id=751766458 instance=ExtResource("97_bawy1")]
+
+[node name="tile-split2" parent="." unique_id=1644834655 instance=ExtResource("98_fylcu")]
+
+[node name="tile-straight-slope-large2" parent="." unique_id=798980620 instance=ExtResource("99_86yit")]
+
+[node name="tile-straight-slope2" parent="." unique_id=253833830 instance=ExtResource("100_725b5")]
+
+[node name="tile-straight2" parent="." unique_id=1982331565 instance=ExtResource("101_y55j3")]
+
+[node name="tile-transition2" parent="." unique_id=1285702000 instance=ExtResource("102_l8lc5")]
+
+[node name="tile-tree-double2" parent="." unique_id=1974338753 instance=ExtResource("103_fi5eu")]
+
+[node name="tile-tree-quad2" parent="." unique_id=84094020 instance=ExtResource("104_q3gm7")]
+
+[node name="tile-tree2" parent="." unique_id=1927471823 instance=ExtResource("105_i3y87")]
+
+[node name="tile-wide-corner2" parent="." unique_id=1846371367 instance=ExtResource("106_ihkyj")]
+
+[node name="tile-wide-split2" parent="." unique_id=2028217680 instance=ExtResource("107_pqaob")]
+
+[node name="tile-wide-straight2" parent="." unique_id=305127783 instance=ExtResource("108_uw0s5")]
+
+[node name="tile-wide-transition2" parent="." unique_id=712609164 instance=ExtResource("109_70eh1")]
+
+[node name="tile2" parent="." unique_id=703726527 instance=ExtResource("110_cwmdm")]
+
+[node name="tower-round-base2" parent="." unique_id=2068134582 instance=ExtResource("111_i0upj")]
+
+[node name="tower-round-bottom-a2" parent="." unique_id=451054587 instance=ExtResource("112_05mri")]
+
+[node name="tower-round-bottom-b2" parent="." unique_id=1047157077 instance=ExtResource("113_c76l2")]
+
+[node name="tower-round-bottom-c2" parent="." unique_id=1958900471 instance=ExtResource("114_1le1e")]
+
+[node name="tower-round-build-a2" parent="." unique_id=1892528974 instance=ExtResource("115_4yfgf")]
+
+[node name="tower-round-build-b2" parent="." unique_id=89282082 instance=ExtResource("116_j4k6c")]
+
+[node name="tower-round-build-c2" parent="." unique_id=1345103063 instance=ExtResource("117_4ohh2")]
+
+[node name="tower-round-build-d2" parent="." unique_id=1814745584 instance=ExtResource("118_p0u7i")]
+
+[node name="tower-round-build-e2" parent="." unique_id=272346873 instance=ExtResource("119_rbjv7")]
+
+[node name="tower-round-build-f2" parent="." unique_id=887134834 instance=ExtResource("120_8l3x4")]
+
+[node name="tower-round-crystals2" parent="." unique_id=119730650 instance=ExtResource("121_hnbdc")]
+
+[node name="tower-round-middle-a2" parent="." unique_id=368286078 instance=ExtResource("122_3cpu6")]
+
+[node name="tower-round-middle-b2" parent="." unique_id=1631896224 instance=ExtResource("123_hu1ff")]
+
+[node name="tower-round-middle-c2" parent="." unique_id=676369371 instance=ExtResource("124_hghl8")]
+
+[node name="tower-round-roof-a2" parent="." unique_id=223174792 instance=ExtResource("125_rifhg")]
+
+[node name="tower-round-roof-b2" parent="." unique_id=328748971 instance=ExtResource("126_v6k3u")]
+
+[node name="tower-round-roof-c2" parent="." unique_id=1836315904 instance=ExtResource("127_yolag")]
+
+[node name="tower-round-top-a2" parent="." unique_id=1003853226 instance=ExtResource("128_kxame")]
+
+[node name="tower-round-top-b2" parent="." unique_id=1067176488 instance=ExtResource("129_piee7")]
+
+[node name="tower-round-top-c2" parent="." unique_id=987185764 instance=ExtResource("130_gakky")]
+
+[node name="tower-square-bottom-a2" parent="." unique_id=477635059 instance=ExtResource("131_1ei4w")]
+
+[node name="tower-square-bottom-b2" parent="." unique_id=1313463420 instance=ExtResource("132_ak47k")]
+
+[node name="tower-square-bottom-c2" parent="." unique_id=741043144 instance=ExtResource("133_ftc3o")]
+
+[node name="tower-square-build-a2" parent="." unique_id=1149910384 instance=ExtResource("134_fg2f7")]
+
+[node name="tower-square-build-b2" parent="." unique_id=701785459 instance=ExtResource("135_avrfi")]
+
+[node name="tower-square-build-c2" parent="." unique_id=749776028 instance=ExtResource("136_msq0o")]
+
+[node name="tower-square-build-d2" parent="." unique_id=1312345081 instance=ExtResource("137_a8a44")]
+
+[node name="tower-square-build-e2" parent="." unique_id=2141547945 instance=ExtResource("138_xa8q3")]
+
+[node name="tower-square-build-f2" parent="." unique_id=1404175268 instance=ExtResource("139_f66gq")]
+
+[node name="tower-square-middle-a2" parent="." unique_id=1080593658 instance=ExtResource("140_vr52r")]
+
+[node name="tower-square-middle-b2" parent="." unique_id=97932613 instance=ExtResource("141_h3op7")]
+
+[node name="tower-square-middle-c2" parent="." unique_id=611941407 instance=ExtResource("142_u5mjf")]
+
+[node name="tower-square-roof-a2" parent="." unique_id=693492234 instance=ExtResource("143_01115")]
+
+[node name="tower-square-roof-b2" parent="." unique_id=1165052731 instance=ExtResource("144_eylrd")]
+
+[node name="tower-square-roof-c2" parent="." unique_id=1548525727 instance=ExtResource("145_rog8p")]
+
+[node name="tower-square-top-a2" parent="." unique_id=909370146 instance=ExtResource("146_7x0q4")]
+
+[node name="tower-square-top-b2" parent="." unique_id=1153872724 instance=ExtResource("147_xnw0u")]
+
+[node name="tower-square-top-c2" parent="." unique_id=303083763 instance=ExtResource("148_i83ie")]
+
+[node name="weapon-ammo-arrow2" parent="." unique_id=1276930153 instance=ExtResource("149_raj7h")]
+
+[node name="weapon-ammo-boulder2" parent="." unique_id=1165958310 instance=ExtResource("150_5xdsd")]
+
+[node name="weapon-ammo-bullet2" parent="." unique_id=1770372794 instance=ExtResource("151_0lr6v")]
+
+[node name="weapon-ammo-cannonball2" parent="." unique_id=1932317066 instance=ExtResource("152_brdxt")]
+
+[node name="weapon-ballista2" parent="." unique_id=142706884 instance=ExtResource("153_ldl23")]
+
+[node name="weapon-cannon2" parent="." unique_id=138548113 instance=ExtResource("154_fh2lx")]
+
+[node name="weapon-catapult2" parent="." unique_id=133993195 instance=ExtResource("155_67f3n")]
+
+[node name="weapon-turret2" parent="." unique_id=1995664342 instance=ExtResource("156_jdnsd")]
+
+[node name="wood-structure-high-part2" parent="." unique_id=532449711 instance=ExtResource("157_ha0oi")]
+
+[node name="wood-structure-high2" parent="." unique_id=994836815 instance=ExtResource("158_871v8")]
+
+[node name="wood-structure-part2" parent="." unique_id=1127545400 instance=ExtResource("159_rvbrj")]
+
+[node name="wood-structure2" parent="." unique_id=1306425442 instance=ExtResource("160_72r36")]
